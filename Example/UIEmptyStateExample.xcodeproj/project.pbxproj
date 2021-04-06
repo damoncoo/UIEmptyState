@@ -144,9 +144,9 @@
 				TargetAttributes = {
 					A05AA1BD1E4560E800B851F7 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 4FNMZ7SN42;
+						DevelopmentTeam = V4WU778WH7;
 						LastSwiftMigration = 0900;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -155,6 +155,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -188,7 +189,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-UIEmptyStateExample/Pods-UIEmptyStateExample-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-UIEmptyStateExample/Pods-UIEmptyStateExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/UIEmptyState/UIEmptyState.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -197,7 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIEmptyStateExample/Pods-UIEmptyStateExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIEmptyStateExample/Pods-UIEmptyStateExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7D72286EB8A21429E4DC3E74 /* [CP] Check Pods Manifest.lock */ = {
@@ -364,11 +365,14 @@
 			baseConfigurationReference = 0C096A755851C19291B1BF97 /* Pods-UIEmptyStateExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4FNMZ7SN42;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V4WU778WH7;
 				INFOPLIST_FILE = UIEmptyStateExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.luispadron.UIEmptyStateExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxkj.qin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.sxkj.qin";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
 			};
@@ -379,11 +383,14 @@
 			baseConfigurationReference = 055A5299204DC390469A46EB /* Pods-UIEmptyStateExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4FNMZ7SN42;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V4WU778WH7;
 				INFOPLIST_FILE = UIEmptyStateExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.luispadron.UIEmptyStateExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sxkj.qin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.sxkj.qin";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.2;
 			};
